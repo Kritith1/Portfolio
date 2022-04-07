@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"crossorigin="anonymous"/>
+   
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="home sticky-top">
+       
+        <nav>
+              <h1>Kriti</h1> 
+                <div>
+                   <a href="#">Service</a>
+                   <a href="#">About</a>
+                   <a href="#">Contact</a> 
+                   <a><i class="fal fa-lightbulb-slash dark" style="color: black; cursor: pointer;"></i></i></a>
+                </div>
+               
+        </nav>
+    
+
+    </header>
+   <main>
+    <div class="primary"></div>
+       <div class="right-circle"></div>
+       
+       <div class="content">
+           <h2>Kriti Thapa</h2>
+               <p>I am Bsc.Csit student currently in 8th sem</p>
+           <button>Download CV</button>
+            </div>
+            <div id="icon">
+          <a href="#" target="_blank"> <div class="Icon1"><i class="fab fa-instagram-f"></i></div></a>
+          <a href="#" target="_blank"> <div class="Icon2"><i class="fab fa-facebook-f"></i></div></a>
+          <a href="#"target="_blank" ><div class="Icon3"><i class="fab fa-linkedin-in"></i></div></a>
+
+       </div>
+     
+   </main>
+
+   <div class="service">
+    <div class="title">
+        <h3>Some of my projects</h3>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <i class="fas fa-bars"></i>
+            <h4>Portfolio Website</h4>
+            <div class="pra">
+                <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="far fa-user"></i>
+            <h4>Optimal Path Finding</h4>
+            <div class="pra">
+                <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <i class="far fa-bell"></i>
+            <h4>Simple Golang Website</h4>
+            <div class="pra">
+                <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+
+                <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+   
+   
+
+   
+</body>
+<script> 
+    window.addEventListener("scroll" ,function()
+    {
+        const header=document.querySelector('header');
+        header.classList.toggle('sticky',window.scrollY > 0);
+
+
+    });
+    
+    const dark=document.querySelector('.dark');
+    dark.addEventListener('click',function(){
+        document.body.classList.toggle("dark-theme")
+    }
+    )
+    </script>
+       
+</html>

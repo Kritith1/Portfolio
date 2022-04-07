@@ -1,0 +1,273 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: white;
+    color: black;
+
+}
+body.dark-theme{
+    background-color: black;
+    color: white;
+}
+body.dark-theme .content h1{
+    color: white;
+}
+body.dark-theme .card-text
+{
+   color: black;
+}
+body.dark-theme .dark
+{
+    color: white;
+}
+.btn-card
+{
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+.home{
+    height: 10vh;
+    position: relative;
+    z-index: 20px;
+}
+.home nav {
+    display: flex;
+    justify-content: space-between ;
+    margin: 0px 120px;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.home nav>div{
+    display:flex;
+    justify-content: space-around;
+    width:30%;
+}
+
+.home nav a
+{
+    background-color:#A4A2B2;
+	color: black;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+    padding: 15px, 125px !important;
+    
+}
+.home nav>div a:hover{
+    color:aliceblue
+}
+nav a {
+    text-decoration: none;
+
+}
+body.dark-theme nav div>.dark
+{
+    color: white;
+}
+ 
+
+
+nav h1{
+    color: #7462E0;
+    
+}
+header.sticky{
+    background-color: white;
+    padding: 10px 0px;
+
+}
+.primary{
+     background-image: url('/img/photo.png');
+     background-repeat:no-repeat;
+     background-position:60% -70%; 
+     position: absolute;
+     background-size: contain;
+     height: 100vh;
+     width: 100vw;
+     z-index: 20;
+     top: 0;
+     left: 0;
+     margin-left: 15%;
+
+     }
+     main{
+         position: relative;
+         height: 90vh;
+         width: 100vw;
+         overflow: hidden;
+     }
+    .right-circle{
+        
+        background:#7462E1;
+        border-radius: 50%;
+        width:80vw;
+        height:80vw;
+        margin-left:60%;
+       position:absolute;
+     }
+     #icon a:hover{
+         color: #7462E0;
+     }
+     .content {
+        position: absolute;
+        margin-left: 120px;
+        margin-top: 120px;
+        height: 400px;
+        width: 500px;
+    }
+    .content p{
+        color: #A4A2B2;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+     .content h1{
+         font-size: 50px;
+         color: #120844;
+         margin-top: 80px;
+         margin-right: 120px;
+         line-height: 70px;
+
+     }
+     .content button
+     {
+         background-color: #7462E0;
+         border:none;
+         color: white;
+         margin-top: 20px;
+         width: 100px;
+         height: 40px;
+     }
+     card-img-top
+     {
+        border-radius: 15px 50px;
+     }
+ .card-img-top
+ {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+ }
+#icon
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+    position: absolute;
+    right: 18%;
+    bottom: 20%;
+    z-index: 30;
+    
+
+
+}
+#icon div
+{
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Icon1
+{
+ background-image: url('/Image/1.png');
+}
+.Icon2
+{
+  color: white;  
+ }
+ .Icon3
+ {
+    color: white;
+ }
+
+ content h2{
+     text-align: center;
+
+ }
+
+ content p{
+     padding:100px;
+     margin-top: 200px;
+ }
+ .service{
+	background:white;
+	width: 100%;
+	padding: 100px 0px;
+
+}
+.title h3{
+	color: black;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+    
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: white;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+    border: black;
+    
+    border-style: dotted;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #A4A2B2;
+
+}
+h4{
+	color: black;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color:black;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#A4A2B2;
+	color: black;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+ 
+ 
